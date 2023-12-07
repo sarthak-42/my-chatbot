@@ -10,28 +10,28 @@ class ActionProvider {
     
    }
    handleHello= ()=>{
-    console.log('Handleing hello')
+    // console.log('Handleing hello')
     const message = this.createChatBotMessage('Hello I am here to assist!')
     this.setChatbotMessage(message)
    }
 
    handleNoData = ()=>{
-    console.log('Handling no data')
+    // console.log('Handling no data')
     const message = this.createChatBotMessage('Sorry I have no Information about this, You can contact our executive on 123553231')
     this.setChatbotMessage(message)
    };
    handlePackageInfo= () => {
-    console.log('handling package info')
+    // console.log('handling package info')
     const message = this.createChatBotMessage('Here are a few packages provided by SkyPro');
     this.setChatbotMessage(message);
   };
    handleLanguageInfo= ()=>{
-    console.log('handleing language')
+    // console.log('handleing language')
     const message = this.createChatBotMessage('We Provide channels in following languages')
     this.setChatbotMessage(message)
    };
    handleSupportInfo= ()=>{
-    console.log('handling support info')
+    // console.log('handling support info')
     const message = this.createChatBotMessage('You can connect with the following contact for support')
     this.setChatbotMessage(message)
    };
