@@ -9,10 +9,10 @@ import ActionProvider from './chabot/ActionProvider';
 function App() {
   return (
    <>
-   <div className="container ">
+   <div className="container">
     
    Hello
-    <header className='shadow p-3 mb-5 bg-body-tertiary rounded'>
+    <header className='container'>
       
     <Chatbot
     config={config}
