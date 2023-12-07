@@ -137,7 +137,7 @@
 .react-chatbot-kit-chat-container {
   position: relative;
   width: 275px;
- 
+  border: 1px;
 }
 
 .react-chatbot-kit-chat-inner-container {
