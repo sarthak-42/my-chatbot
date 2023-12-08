@@ -12,13 +12,13 @@ function App() {
    <div className="container">
     
    Hello
-    <header className='container'>
+    <div style={{maxWidth: '300px'}}>
       
     <Chatbot
     config={config}
     messageParser={MessageParser}
     actionProvider={ActionProvider}/>
-    </header>
+    </div>
    
    </div>
    </>
